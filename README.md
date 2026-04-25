@@ -23,7 +23,7 @@ Setelah nilai dimasukkan, prosedur akan melakukan dua pengecekan sekaligus:
 1. Eksekusi (*Run* / *Go*) blok kode mulai dari tulisan `DELIMITER //` hingga `DELIMITER ;` pada *tab* **SQL** di aplikasi Database Management Anda (XAMPP phpMyAdmin, DBeaver, DataGrip, dll) untuk menciptakan prosedurnya.
 2. Panggil prosedurnya dengan nilai ujian yang mau Anda tes menggunakan pernyataan `CALL`. 
 
-**Contoh Perintah Eksekusi:**
+**Contoh Perintah Eksekusi 1:**
 ```sql
 CALL cek_predikat_mahasiswa(90);
 ```
@@ -34,3 +34,15 @@ Akan muncul sebuah tabel *Select* yang berisi 3 kolom yakni `nilai`, `predikat`,
 | nilai | predikat | status |
 |---|---|---|
 | 90 | Sangat Memuaskan | Lulus |# -cek_predikat_mahasiswa-
+
+**Contoh Perintah Eksekusi 2:**
+```sql
+CALL cek_predikat_mahasiswa(60);
+```
+
+**Hasil yang didapatkan:**
+Akan muncul sebuah tabel *Select* yang berisi 3 kolom yakni `nilai`, `predikat`, dan `status`.
+
+| nilai | predikat | status |
+|---|---|---|
+| 60 | Cukup | Tidak Lulus |# -cek_predikat_mahasiswa-
