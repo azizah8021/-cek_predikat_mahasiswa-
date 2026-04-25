@@ -33,4 +33,4 @@ Akan muncul sebuah tabel *Select* yang berisi 3 kolom yakni `nilai`, `predikat`,
 
 | nilai | predikat | status |
 |---|---|---|
-| 90 | Memuaskan | Lulus |# -cek_predikat_mahasiswa-
+| 90 | Sangat Memuaskan | Lulus |# -cek_predikat_mahasiswa-
