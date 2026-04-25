@@ -25,7 +25,7 @@ Setelah nilai dimasukkan, prosedur akan melakukan dua pengecekan sekaligus:
 
 **Contoh Perintah Eksekusi:**
 ```sql
-CALL cek_predikat_mahasiswa(85);
+CALL cek_predikat_mahasiswa(90);
 ```
 
 **Hasil yang didapatkan:**
